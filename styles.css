@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook&family=IM+Fell+English+SC&family=Cormorant+Garamond:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #111; /* Dark background */
+    font-family: 'Cormorant Garamond', serif;
+    color: #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #b30000; /* Blood red on hover */
+}
+
+section {
+    height: auto;
+    padding: 4rem 2rem;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: #1a1a1a;
+    color: #ccc;
+    font-family: 'IM Fell English SC', serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+nav .hdLogo {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+    color: #ccc;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background-color: #1c1c1c;
+}
+
+.hero .hr-text {
+    width: 50%;
+}
+
+.hr-text h1 {
+    font-family: "Pirata One";
+    color: #e6e6e6;
+    font-size: 64px;
+    margin-bottom: 1rem;
+}
+
+.hr-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #aaa;
+}
+
+.hr-text button {
+    width: 140px;
+    height: 45px;
+    background-color: #660000;
+    color: white;
+    border: 1px solid #b30000;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hr-text button:hover {
+    background-color: #b30000;
+}
+
+/* HERO IMAGE */
+.hero img {
+    background-color: #333;
+    width: 40%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 10px;
+    border: 2px solid #444;
+}
+
+/* OFFER SECTION */
+.offer {
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #151515;
+}
+
+.offer .of_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.offer .of_img img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #660000;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.offer .of_img h5 {
+    font-family: 'IM Fell English SC', serif;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.offer .of_img p {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* QUOTE SECTION */
+.quot {
+    background-color: #1e1b1b;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.quot h5 {
+    margin-top: 1rem;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 18px;
+}
+
+/* CTA SECTION */
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background-color: #0e0e0e;
+}
+
+.cta .cta_content {
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    background-color: #330000;
+    color: white;
+    max-width: 800px;
+    width: 100%;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px rgba(179, 0, 0, 0.4);
+}
+
+.cta .cta_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cta .cta_text h5 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.cta .cta_text p {
+    font-size: 16px;
+}
+
+.cta button {
+    width: 160px;
+    height: 40px;
+    background-color: #f2f2f2;
+    color: #660000;
+    border: 2px solid #b30000;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: white;
+    color: #330000;
+}
